@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Binary Calculator</title>
+        <header id="hea">The Binary Calculator</header>
+    </head>
+    <body>
+        <div class="main_body">
+            <div id="input_body">
+                <input type="text" id="f_bin" placeholder="Enter First Binary here">
+                <br>
+                <input type="text" id="s_bin" placeholder="Enter Second Binary here">
+            </div>
+            <br>
+            <div id="choice_body">
+                <button onclick="main(1)">+</button>
+                <button onclick="main(3)">-</button>
+                <button onclick="main(2)">*</button>
+                <button onclick="main(4)">/</button>
+            </div>
+            <br>
+        </div>  
+        <div class="main_body">
+            <p id="result">The result :</p>
+        </div>
+        <script src="script.js"></script>
+    </body>
+    
+</html>
